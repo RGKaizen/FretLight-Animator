@@ -6,6 +6,8 @@ A C# project for manipulating and animating the LEDs on a Optek Fretlight Guitar
 So here's a video of it running the simulation.
 <Video Here>
 
+Codebase relies on <a href="http://sourceforge.net/projects/libusbdotnet/">Libusb.net</a> in order to communicate with the guitar via usb
+
 Some of the features of my app include:
 - Variable animation speed, controlled with a slider
 - Loosely-coupled GUI/Guitar settings, so you can observe animations even without attaching a guitar
